@@ -3,18 +3,25 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://github.com/Rahul-Ranjan-dev/weathernow.git",
+  "homepage": "https://github.com/Rahul-Ranjan-dev/weathernow.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@fontsource/roboto": "^5.2.10",
+    "@mui/icons-material": "^9.2.0",
+    "@mui/material": "^9.2.0",
+    "@mui/styled-engine-sc": "^9.1.1",
     "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react-dom": "^19.2.7",
+    "styled-components": "^6.4.3"
   },
   "devDependencies": {
     "@types/react": "^19.2.17",
