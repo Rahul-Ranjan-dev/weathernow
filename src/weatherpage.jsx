@@ -13,6 +13,7 @@ export default function WeatherPage() {
 
   const [city, setCity] = useState("");
   const [weather,setweather]=useState(null)
+  
 
   async function handleSubmit(event) {
     event.preventDefault();
@@ -26,7 +27,7 @@ export default function WeatherPage() {
         pressure:responsejson.main.pressure
     }
     console.log(result);
-    setweather(result)
+    setweather(result);
     setCity("");
   }
 

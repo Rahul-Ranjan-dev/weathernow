@@ -1,12 +1,13 @@
 import { useState } from 'react'
 
-import WeatherPage from './weatherpage.jsx'
+import Weather from './Weather.jsx'
 function App() {
   
 
   return (
     <>
- <WeatherPage/>
+ 
+ <Weather/>
     </>
   )
 }
