@@ -38,6 +38,8 @@ export default function SearchBox({updateinfo}){
             id="outlined-required"
             label="City"
             value={city}
+            
+            
             onChange={handleChange}
           />
           <Button variant="contained" type="submit">Search</Button>
